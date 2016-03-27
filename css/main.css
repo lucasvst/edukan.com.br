@@ -777,7 +777,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 .footer{
-    position: relative;
+    position: fixed;
     bottom: 20px;
     right: 0px;
     width: 100%;
@@ -793,33 +793,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #FF3B30;
 }
 
-@media (min-width:219px){
-    .main .subscribe .form-group{
-        width: auto;
-    }
-    .main .subscribe .form-inline .btn{
-        width: 100%;
-    }
-}
-@media (min-width:768px){
-    .main .subscribe .form-inline .btn{
-        width: auto;
-    }
-}
-@media (min-width:991px){
-    .main .subscribe .form-group{
-        /*width: 190px;*/
-    }
-    .footer{
-        position: fixed;
-        bottom: 20px;
-    }
-}
-@media (min-width:1200px){
-    .main .subscribe .form-group{
-        /*width: 250px;*/
-    }
-}
+
 
 
 
